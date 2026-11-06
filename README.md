@@ -7,13 +7,7 @@ Equations follow R. L. Williams II, *The Delta Parallel Robot: Kinematics Soluti
 ## Install
 
 ```bash
-# Install from PyPI
 pip install deltakin
-
-# Install from source
-git clone https://github.com/YOUR_USERNAME/deltakin.git
-cd deltakin
-pip install .
 ```
 
 ## Usage
@@ -52,6 +46,26 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
 The test suite includes round trips (inverse then forward, and forward then inverse), the example from the Williams paper, and a mirror-symmetry check.
+
+## Open Source & Contributions
+
+**deltakin** is an open-source project released under the MIT License.
+
+Contributions from the community are welcome! You are free to use, modify, extend, and improve the library to support your own projects and research.
+
+Whether you are a robotics researcher, engineer, student, or developer, you are welcome to contribute by:
+
+- Reporting bugs and suggesting improvements.
+- Adding new features and functionalities.
+- Improving documentation and examples.
+- Optimizing kinematic algorithms.
+- Sharing ideas and applications.
+
+Feel free to explore the source code, fork the repository, and submit your contributions through pull requests.
+
+________________________________________________________
+Your contributions and feedback are greatly appreciated
+________________________________________________________
 
 ## Author
 
