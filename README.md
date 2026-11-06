@@ -7,7 +7,7 @@ Equations follow R. L. Williams II, *The Delta Parallel Robot: Kinematics Soluti
 ## Install
 
 ```bash
-pip install .          # from this folder
+pip install deltakin          # from this folder
 ```
 
 ## Usage
