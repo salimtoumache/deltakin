@@ -1,3 +1,9 @@
+[![PyPI](https://img.shields.io/pypi/v/deltakin?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/deltakin/)
+[![Python](https://img.shields.io/pypi/pyversions/deltakin?logo=python&logoColor=white)](https://pypi.org/project/deltakin/)
+[![Downloads](https://img.shields.io/pypi/dm/deltakin)](https://pypi.org/project/deltakin/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](pyproject.toml)
+
 # deltakin
 
 Forward and inverse kinematics for 3-DOF Delta parallel robots, in pure Python (no dependencies).
