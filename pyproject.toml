@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "deltakin"
-version = "0.1.0"
+version = "0.1.1"
 description = "Forward and inverse kinematics for 3-DOF Delta parallel robots."
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 requires-python = ">=3.8"
 authors = [{ name = "Salim Toumache", email = "salimtoumache@gmail.com" }]
 keywords = ["delta robot", "parallel robot", "kinematics", "robotics", "mechatronics"]
