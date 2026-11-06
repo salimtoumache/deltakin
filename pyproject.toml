@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deltakin"
+version = "0.1.0"
+description = "Forward and inverse kinematics for 3-DOF Delta parallel robots."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "Salim Toumache", email = "salimtoumache@gmail.com" }]
+keywords = ["delta robot", "parallel robot", "kinematics", "robotics", "mechatronics"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
